@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Flatdango Movie Theater</title>
+  <title>FLATDANGO Movie Ticket App</title>
   <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-  <div id="movie-details">
-    <h2>Movie Details</h2>
-    <img id="movie-poster" src="" alt="Movie Poster">
-    <h3 id="movie-title"></h3>
-    <p><strong>Runtime:</strong> <span id="movie-runtime"></span></p>
-    <p><strong>Showtime:</strong> <span id="movie-showtime"></span></p>
-    <p><strong>Available Tickets:</strong> <span id="movie-available-tickets"></span></p>
-    <button id="buy-ticket">Buy Ticket</button>
+  <h1 id="top">FLATDANGO MOVIE APP</h1>
+  <div class="container">
+    <div class="movie-details">
+      <h1>Movie Details</h1>
+      <img id="movie-poster" src="">
+      <h2 id="movie-title"></h2>
+      <p><strong>Runtime:</strong> <span id="movie-runtime"></span> minutes</p>
+      <p><strong>Showtime:</strong> <span id="movie-showtime"></span></p>
+      <p><strong>Available Tickets:</strong> <span id="available-tickets"></span></p>
+      <p><strong>Description:</strong><span id="description"></span></p>
+      <button id="buy-ticket-btn">Buy Ticket</button>
+    </div>
+    <div class="movie-menu">
+      <h1>Movie Menu</h1>
+      <ul id="films"></ul>
+    </div>
   </div>
-
-  <ul id="films"></ul>
 
   <script src="index.js"></script>
 </body>
-</html> 
+</html>
